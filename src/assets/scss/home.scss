@@ -1,0 +1,161 @@
+@import './color';
+
+.v-home {
+    .banner {
+        .carousel {
+            .carousel-indicators {
+                button {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+
+                }
+
+                button.active {
+                    background-color: $txtBlue;
+                }
+            }
+
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    display: flex;
+
+                    img {
+                        flex: 1;
+                    }
+
+                    .desc {
+                        position: absolute;
+                        background: #14D0D6 0% 0% no-repeat padding-box;
+                        border-radius: 59px;
+                        right: -35px;
+                        top: 104px;
+                        text-align: left;
+                        font: normal normal normal 41px/61px Montserrat;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        padding: 22px 35px;
+                    }
+
+                    .desc-2 {
+                        top: 229px;
+                    }
+
+                    .desc-3 {
+                        top: 354px;
+                    }
+                }
+            }
+
+            .carousel-control-prev, .carousel-control-next {
+                display: none;
+            }
+        }
+    }
+
+    .create-ai {
+        .create-ai-title {
+            font: normal normal normal 51px/22px Montserrat;
+            letter-spacing: 0px;
+            opacity: 1;
+            color: $txtBlue;
+            display: block;
+        }
+
+        .create-ai-desc {
+            font: normal normal normal 17px/37px Montserrat;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            font-size: 14px;
+        }
+    }
+
+    .be-the-artist {
+        small {
+            display: block;
+        }
+
+        .title {
+            font: normal normal normal 46px/22px Montserrat;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+
+        .desc {
+            font: normal normal normal 17px/37px Montserrat;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            margin-top: 30px;
+        }
+
+        .btn-learn-more {
+            background: #14D0D6 0% 0% no-repeat padding-box;
+            border-radius: 22px;
+            opacity: 1;
+            color: white;
+            font: normal normal 600 17px/22px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            border: 1px solid $txtBlue;
+            transition: all 0.3s linear;
+            padding: 12px 16px 11px 16px;
+        }
+
+        button:hover {
+            background-color: transparent;
+            color: $txtBlue;
+        }
+    }
+
+    .bg-shin {
+        height: auto;
+        background: url(../images/bg_dark.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+        .be-the-artist {
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+
+            small {
+                display: block;
+            }
+    
+            .title {
+                font-size: 40px;
+                color: white;
+                font-family: monospace;
+            }
+    
+            .desc {
+                font-size: 14px;
+                color: white;
+                font-family: monospace;
+            }
+    
+            .btn-learn-more {
+                border-radius: 40px;
+                background-color: $txtBlue;
+                color: white;
+                font-weight: bold;
+                font-family: monospace;
+                font-size: 14px;
+                border: 1px solid $txtBlue;
+                transition: all 0.3s linear;
+            }
+    
+            button:hover {
+                background-color: transparent;
+                color: $txtBlue;
+            }
+        }   
+    }
+}

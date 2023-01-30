@@ -1,0 +1,90 @@
+.v-create {
+    margin-top: 113px;
+    .search {
+        .describe-title {
+            font: normal normal normal 17px/22px Montserrat;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+
+        .describe-search {
+            display: flex;
+            border-radius: 27px;
+
+            .dropdown-toggle {
+                border-top-left-radius: 27px;
+                border-bottom-left-radius: 27px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                background-color: #D6D6D6;
+                border: 1px solid #D6D6D6;
+                font: normal normal normal 21px/22px Montserrat;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                padding: 14px 24px;
+                display: flex;
+                align-items: center;
+            }
+
+            .dropdown-menu  {
+                background: #D6D6D6 0% 0% no-repeat padding-box;
+                border-radius: 21px;
+                padding: 12px;
+
+                a {
+                    font: normal normal normal 17px/25px Montserrat;
+                    letter-spacing: 0.54px;
+                    color: #000000;
+                }
+            }
+
+            input {
+                background-color: #ECECEC;
+                font: normal normal normal 21px/22px Montserrat;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 0.35;
+                padding: 14px;
+                border-radius: 0px;
+            }
+            input:focus {
+                border-color: transparent;
+                box-shadow: none;
+            }
+
+            .btn-create {
+                background-color: #14D0D6;
+                font: normal normal normal 21px/22px Montserrat;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                border: 1px solid #14D0D6;
+                padding-inline-start: 14px;
+                border-top-right-radius: 27px;
+                border-bottom-right-radius: 27px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                transition: all 0.3s linear;
+            }
+
+            .btn-create:hover {
+                color: #14D0D6;
+                background: transparent;
+            }
+        }
+    }
+
+    .gallery {
+        margin-top: 176px;
+
+        .gallery-artists {
+            
+            img {
+                // width: 324px;
+                height: 324px;
+            }
+        }
+    }
+}
